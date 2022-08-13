@@ -41,7 +41,8 @@ def valid(board, num, pos):
     for i in range(len(board)):
         if board[i][pos[1]] == num and pos[0] != i:
             return False
-    #Check boardx
+
+    #Check board
     boardx_x = pos[1] // 3
     boardx_y = pos[0] // 3
 
